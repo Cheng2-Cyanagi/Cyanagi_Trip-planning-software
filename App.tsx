@@ -1,3 +1,10 @@
+import { HashRouter } from "react-router-dom";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <HashRouter>
+    <App />
+  </HashRouter>
+);
 
 import React, { useState, useEffect, useRef } from 'react';
 import { CATEGORY_LABELS, Category, TodoItem } from './types';
